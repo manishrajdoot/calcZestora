@@ -1,0 +1,21 @@
+{
+    "name": "CalcZestora",
+    "short_name": "CalcZestora",
+    "description": "A stylish neumorphic calculator with advanced features.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#e0e0e0",
+    "theme_color": "#e0e0e0",
+    "icons": [
+        {
+            "src": "https://emojicdn.elk.sh/🧮?style=apple",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://emojicdn.elk.sh/🧮?style=apple",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

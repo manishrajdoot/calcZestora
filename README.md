@@ -1,71 +1,106 @@
-CalcZestora
-A modern, neumorphic-styled calculator web application with advanced features, designed for both desktop and mobile users. CalcZestora provides a sleek user interface, sound effects, and offline support via Progressive Web App (PWA) functionality.
-Features
+# CalcZestora 🧮
 
-Neumorphic Design: A visually appealing, soft UI with light and dark theme support.
-Basic Operations: Perform addition (+), subtraction (-), multiplication (×), and division (÷).
-Memory Functions: Use MC (Memory Clear), MR (Memory Recall), M+ (Memory Add), and M- (Memory Subtract) for advanced calculations.
-Interactive Display: Shows operation signs (e.g., 5 +) as you type or click.
-Sound Effects: Click or type to hear a subtle sound (toggleable with the sound button 🔊/🔇).
-History Tracking: Displays the last 5 calculations, clickable to recall results.
-Theme Toggle: Switch between light (☀️) and dark (🌙) modes, with automatic system preference detection.
-Progressive Web App (PWA): Installable on devices with offline support.
-Responsive Design: Works seamlessly on desktop, tablet, and mobile devices.
-Keyboard Support: Use your keyboard to perform calculations with sound feedback.
-Accessibility: Includes ARIA labels and focus styles for better usability.
+![GitHub stars](https://img.shields.io/github/stars/manishrajdoot/calcZestora?style=social) ![GitHub forks](https://img.shields.io/github/forks/manishrajdoot/calcZestora?style=social) ![License](https://img.shields.io/github/license/manishrajdoot/calcZestora)
 
-Installation
+CalcZestora is a modern, neumorphic-styled calculator web application designed for seamless calculations on both desktop and mobile devices. With a sleek interface, sound effects, and offline support via Progressive Web App (PWA) functionality, it offers an enhanced user experience for performing basic arithmetic operations and more.
 
-Clone the Repository:
-git clone https://github.com/your-username/calcZestora.git
+## ✨ Features
 
-Replace your-username with your GitHub username.
+- **Neumorphic Design**: Soft, modern UI with light and dark theme support for a visually appealing experience.
+- **Basic Operations**: Perform addition (`+`), subtraction (`-`), multiplication (`×`), and division (`÷`) effortlessly.
+- **Memory Functions**: Utilize `MC` (Memory Clear), `MR` (Memory Recall), `M+` (Memory Add), and `M-` (Memory Subtract) for advanced calculations.
+- **Interactive Display**: Shows operation signs in real-time (e.g., `5 +`) as you type or click.
+- **Sound Effects**: Subtle click sounds on button press or keyboard input (toggleable with 🔊/🔇).
+- **Calculation History**: View and recall the last 5 calculations with a single click.
+- **Theme Toggle**: Switch between light (☀️) and dark (🌙) modes, with system preference detection.
+- **Progressive Web App (PWA)**: Installable on devices with offline support.
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
+- **Keyboard Support**: Full keyboard input support with sound feedback.
+- **Accessibility**: ARIA labels and focus styles for better usability.
 
-Navigate to the Project Directory:
-cd calcZestora
+## 🌐 Live Demo
 
+Try CalcZestora live at: [https://manishrajdoot.github.io/calcZestora](https://manishrajdoot.github.io/calcZestora)
 
-Serve the Application:Since this is a static web app, you need to serve it over HTTPS or localhost for PWA features to work. Use a local server like http-server:
-npx http-server -c-1 --ssl
+*Note*: If the live demo link isn’t active, enable GitHub Pages in the repository settings (see "Enable GitHub Pages" under Installation).
 
-Alternatively, use VS Code’s Live Server extension or any other local server.
+## 📸 Screenshots
 
-Open in Browser:Open your browser and navigate to the URL provided by the server (e.g., https://localhost:8080).
+*No screenshots are displayed yet. Follow these steps to add them:*
 
+1. Take screenshots of the calculator in different modes (e.g., light theme, dark theme, mobile view).
+2. Create a `screenshots/` folder in the repository:
+   - On GitHub, go to `https://github.com/manishrajdoot/calcZestora`, click **Add file** > **Create new file**, name it `screenshots/placeholder.txt`, and commit to create the folder.
+   - Alternatively, create the folder locally and push it with Git.
+3. Upload your images (e.g., `light-theme.png`, `dark-theme.png`) to the `screenshots/` folder:
+   - Click **Add file** > **Upload files** on GitHub, or use `git add screenshots/*.png` locally.
+4. Update this section with the image links. Replace the placeholders below with actual file names:
+   - Light Theme: ![Light Theme](screenshots/light-theme.png)
+   - Dark Theme: ![Dark Theme](screenshots/dark-theme.png)
+   - Mobile View: ![Mobile View](screenshots/mobile-view.png)
 
-Usage
+*After uploading, the images will appear here. Refresh the page to see the changes.*
 
-Perform Calculations:
-Click the buttons or use your keyboard to input numbers and operators.
-Example: Type 5, +, 3, then = to get 8.
+## 🚀 Getting Started
 
+### Prerequisites
+- A modern web browser (e.g., Chrome, Firefox, Safari).
+- A local server for testing (e.g., `http-server` for HTTPS/localhost, required for PWA features).
 
-Memory Functions:
-MC: Clear the memory.
-MR: Recall the stored memory value.
-M+: Add the current value to memory.
-M-: Subtract the current value from memory.
+### Installation
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/manishrajdoot/calcZestora.git
+   ```
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd calcZestora
+   ```
+3. **Serve the Application**:
+   Use a local HTTPS server to test the app (required for PWA and sound features):
+   ```bash
+   npx http-server -c-1 --ssl
+   ```
+   Alternatively, use VS Code’s Live Server extension or any other local server.
+4. **Open in Browser**:
+   Navigate to the URL provided by the server (e.g., `https://localhost:8080`).
 
+### Enable GitHub Pages (Optional)
+To host CalcZestora online:
+1. Go to the repository on GitHub (`https://github.com/manishrajdoot/calcZestora`).
+2. Navigate to **Settings** > **Pages**.
+3. Under "Source," select the `main` branch and save.
+4. Wait a few minutes, then access the live site at `https://manishrajdoot.github.io/calcZestora`.
 
-Toggle Theme: Click the theme button (🌙/☀️) to switch between light and dark modes.
-Toggle Sound: Click the sound button (🔊/🔇) to enable or disable sound effects.
-View History: Scroll through the history panel to see past calculations and click to recall results.
-Install as PWA: Use the browser’s "Install" option to add CalcZestora to your device for offline use.
+## 🖱️ Usage
 
-Technologies Used
+- **Perform Calculations**:
+  - Click buttons or type numbers and operators using your keyboard.
+  - Example: Type `5`, `+`, `3`, then `=` to get `8`.
+- **Memory Functions**:
+  - `MC`: Clear memory.
+  - `MR`: Recall memory value.
+  - `M+`: Add current value to memory.
+  - `M-`: Subtract current value from memory.
+- **Toggle Theme**: Click the theme button (🌙/☀️) to switch modes.
+- **Toggle Sound**: Click the sound button (🔊/🔇) to enable/disable sound effects.
+- **View History**: Check the history panel to see past calculations and click to recall.
+- **Install as PWA**: Use your browser’s "Install" option to add CalcZestora to your device.
 
-HTML5: Structure of the web application.
-CSS3: Styling with neumorphic design, responsive layouts, and theme switching.
-JavaScript: Core logic for calculator operations, sound effects, and PWA functionality.
-Web APIs:
-AudioContext for sound effects.
-Service Worker for offline support.
-LocalStorage for theme and history persistence.
+## 🛠️ Technologies Used
 
+- **HTML5**: Core structure of the web app.
+- **CSS3**: Neumorphic styling, responsive design, and theme switching.
+- **JavaScript**: Calculator logic, sound effects, and PWA functionality.
+- **Web APIs**:
+  - `AudioContext`: For sound effects.
+  - `Service Worker`: For offline support via PWA.
+  - `LocalStorage`: For persisting theme and history data.
+- **Fonts**: Montserrat (Google Fonts) for typography.
 
-Fonts: Montserrat from Google Fonts for typography.
+## 📂 Project Structure
 
-Project Structure
+```
 calcZestora/
 ├── index.html         # Main HTML file
 ├── style.css          # Stylesheet for neumorphic design and themes
@@ -73,10 +108,110 @@ calcZestora/
 ├── manifest.json      # PWA manifest for app installation
 ├── service-worker.js  # Service Worker for offline support
 └── README.md          # Project documentation
+├── screenshots/       # Folder for screenshots (to be added)
+```
 
-Developer
-Developed by Manish Rajdoot © 2025.
-License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the license terms.
+## 👨‍💻 Developer
+
+Developed by [Manish Rajdoot](https://www.instagram.com/manish.rajdoot/) © 2025.
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## ❓ Troubleshooting
+
+- **Images Not Appearing**:
+  - For screenshots: Ensure you’ve uploaded images to the `screenshots/` folder and updated the links in the "Screenshots" section.
+  - For favicon: The current favicon uses an emoji URL (`https://emojicdn.elk.sh/🧮?style=apple`). If it’s not displaying:
+    1. Create a custom 192x192 PNG favicon (e.g., `favicon.png`).
+    2. Replace the `<link rel="icon">` in `index.html` with `<link rel="icon" href="/favicon.png" type="image/png">`.
+    3. Update the `icons` in `manifest.json` to reference the new file.
+    4. Upload `favicon.png` to the repository root and commit the changes.
+
+- **Live Demo Not Working**:
+  - Ensure GitHub Pages is enabled (see "Enable GitHub Pages" above).
+  - Clear your browser cache or try a different browser.
+
+---
 
 Happy calculating with CalcZestora! 🧮
+
+
+---
+
+### Steps to Fix Images and Update `README.md`
+Since the images aren’t appearing, here’s how to resolve it and update your GitHub repository:
+
+#### 1. Add Screenshots
+- **Take Screenshots**:
+  - Open the calculator locally (e.g., `https://localhost:8080`).
+  - Take screenshots in light mode, dark mode, and mobile view (use browser DevTools to simulate mobile).
+  - Save them as PNG files (e.g., `light-theme.png`, `dark-theme.png`, `mobile-view.png`).
+- **Upload to GitHub**:
+  - Go to `https://github.com/manishrajdoot/calcZestora`.
+  - Click **Add file** > **Create new file**.
+  - Name the file `screenshots/placeholder.txt`, add some text (e.g., "Placeholder"), and commit to create the folder.
+  - Click **Add file** > **Upload files**, drag your screenshot files into the `screenshots/` folder, and commit.
+- **Update `README.md`**:
+  - Edit the `README.md` file on GitHub (click the pencil icon ✏️).
+  - Replace the "Screenshots" section placeholders with actual links:
+    ```markdown
+    - Light Theme: ![Light Theme](screenshots/light-theme.png)
+    - Dark Theme: ![Dark Theme](screenshots/dark-theme.png)
+    - Mobile View: ![Mobile View](screenshots/mobile-view.png)
+    ```
+  - Scroll down and click **Commit changes**.
+- **Verify**: Refresh the repository page and check if the screenshots appear.
+
+#### 2. Fix the Favicon (Optional)
+- **Create a Custom Favicon**:
+  - Design a 192x192 PNG image (e.g., using an online tool like Favicon.io) representing CalcZestora.
+  - Save it as `favicon.png`.
+- **Update Files**:
+  - Edit `index.html` locally:
+    - Replace `<link rel="icon" href="https://emojicdn.elk.sh/🧮?style=apple" type="image/png">` with `<link rel="icon" href="/favicon.png" type="image/png">`.
+  - Edit `manifest.json` locally:
+    - Replace the `icons` URLs with:
+      ```json
+      "icons": [
+          {
+              "src": "/favicon.png",
+              "sizes": "192x192",
+              "type": "image/png"
+          },
+          {
+              "src": "/favicon.png",
+              "sizes": "512x512",
+              "type": "image/png"
+          }
+      ]
+      ```
+- **Upload Favicon**:
+  - Add `favicon.png` to the repository root:
+    - Use `git add favicon.png` locally, then `git commit -m "Added custom favicon" && git push origin main`.
+    - Or upload via GitHub’s **Add file** > **Upload files**.
+- **Verify**: Open the live demo or local server, and check the browser tab for the new favicon.
+
+#### 3. Update `README.md` on GitHub
+- **Replace the File**:
+  - Go to `https://github.com/manishrajdoot/calcZestora`.
+  - Click on `README.md`, then the pencil icon (✏️).
+  - Delete the existing content and paste the updated `README.md` content from the artifact above.
+  - Scroll down and click **Commit changes**.
+- **Verify**: Refresh the page and ensure the updated `README.md` appears with the troubleshooting section.
+
+---
+
+### Why Images Aren’t Appearing
+- **Screenshots**: The `README.md` had placeholder text, but no images were uploaded to the `screenshots/` folder, so the links were broken.
+- **Favicon**: The emoji URL might not render consistently across all browsers, and it’s better to use a local file for reliability.
+
+---
+
+### Expected Result
+- After uploading screenshots and updating the `README.md`, the "Screenshots" section will display the images.
+- After adding a custom `favicon.png` and updating `index.html` and `manifest.json`, the favicon will appear in the browser tab.
+- The updated `README.md` on GitHub will include troubleshooting tips and reflect the latest changes.
+
+If the images still don’t appear after following these steps, please let me know the specific issue (e.g., error messages, file paths), and I’ll help troubleshoot further!
